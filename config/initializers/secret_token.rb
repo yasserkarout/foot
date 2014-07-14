@@ -1,0 +1,1 @@
+Tmrails::Application.config.secret_token = '15e6a19ccd2c6b4d2db866632702c55ddb9aea79f42f399f54376a162ca28bd2b11d64c020c38f6c075675bd6b2d4e179ed9fb1135fe2b65d7f37c58b8354f9f'
