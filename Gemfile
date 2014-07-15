@@ -4,6 +4,18 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.8'
 
+
+
+gem 'sass-rails', '4.0.1'
+gem 'uglifier', '2.1.1'
+gem 'coffee-rails', '4.0.1'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
+
+
+
+
 group :development do
   gem 'sqlite3', '1.3.8'
 end
@@ -22,9 +34,4 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-group :assets do
-	gem 'bootstrap-sass', '~> 3.2.0'
-	gem 'sass-rails', '4.0.1'
-	gem 'uglifier', '2.1.1'
-gem 'coffee-rails', '4.0.1'
-end
+
