@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :pins
+
   get 'about' => 'pages#about'
   root 'pages#home'
   devise_for :users, :controllers => { registrations: 'registrations' }
