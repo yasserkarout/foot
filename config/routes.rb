@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   resources :pins
 
   get 'about' => 'pages#about'
-  root 'pages#home'
+  root 'pins#index'
   devise_for :users, :controllers => { registrations: 'registrations' }
 
   # The priority is based upon order of creation: first created -> highest priority.
