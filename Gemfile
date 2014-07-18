@@ -8,7 +8,7 @@ gem 'sprockets', '2.11.0'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'devise'
 gem 'simple_form'
-
+gem "paperclip", "~> 4.1"
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
